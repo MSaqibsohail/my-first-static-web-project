@@ -1,0 +1,600 @@
+*{
+    margin: 0%;
+}
+#header{
+   
+    flex-direction: row;
+    align-items: center;
+   /* position: sticky;
+    top: 0;*/
+    
+   
+
+}
+#mainnavbar{
+    height: 83px
+}
+.navbar_inputs{
+    
+    margin-left: 247px;
+    text-align: center;
+}
+#searchimg{
+    height: 15px;
+    width: 15px;
+    margin-top: -22px;
+    
+    margin-left: 9px;
+}
+#logo{
+    height: 120px;
+    width: 135px;
+   
+}
+
+
+
+input{
+    
+    width: 208px;
+    height: 32px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background-color: #f2e1d9;
+}
+#navbar{
+    align-items: center;
+    display: flex;
+    background-color: #f2e1d9;
+    justify-content: center;
+    height: 100px;
+    margin-top: 1px;
+    margin-top: -123px;
+    margin-left: 107px
+   
+}
+
+.headings{
+    font-size: 25px;
+}
+#ullist{
+    list-style-type: none;
+    padding: 0%;
+
+}
+#ulli {
+    text-decoration: none;
+    padding: 10px;
+    color: black;
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+.inputsearch{
+    margin-left: 35px;
+}
+#cartimg{
+    height: 20px;
+    width: 20px;
+}
+#list{
+    display: flex;
+    align-items: center;
+    margin-left: -21px
+}
+#mainimage{
+    background-size: cover;
+    
+    width: 1000px;
+}
+#homedis{
+    
+    margin-top: -470px;
+    width: 517px;
+    /* margin-left: 19px; */
+    background-color: white;
+    height: 420px;
+    
+    z-index: 1;
+    position: absolute;
+    display: flex;
+
+}
+#allhomessec{
+    margin-top: -432px;
+    width: 481px;
+    /* background-color: aquamarine; */
+    z-index: 1;
+    position: relative;
+    margin-left: 55px;
+}
+#sech3{
+    color: #7f85a8;
+    font-size: 24px;
+    font-family: sans-serif;
+}
+#sech1{
+    font-size: 53px;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-top: 25px;
+}
+#at{
+    margin-left: 10px;
+}
+#sech2{
+    font-size: 51px;
+    font-family: sans-serif;
+    margin-top: 8px;
+}
+#secpara{
+    font-size: 19px;
+    margin-top: 20px;
+    font-family: sans-serif;
+    color:#7f85a8 ;
+}
+button{
+    
+    margin-top: 32px;
+    height: 51px;
+    width: 176px;
+    color:#fd8f5f;
+    background-color: white;
+    border-style: none;
+    font-family: sans-serif;
+    font-size: 15px;
+    border:1px solid #fd8f5f;
+}
+button:hover{
+       background-color: #fd8f5f;
+       color: white;
+       
+}
+#secondpage{
+    margin-top: 199px;
+}
+#sph1{
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#sppara1{
+     text-align: center;
+     justify-content: center;
+     width: 498px;
+    margin-left: 268px;
+    margin-top: 18px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#productlist{
+    display: flex;
+    margin-top: 77px;
+}
+#productul{
+    display: flex;
+    align-items: center;
+    margin-left: 211px;
+    list-style-type: none;
+}
+
+.productlia1{
+    font-size :16px;
+    text-decoration: none;
+    padding: 11px;
+    text-align: center;
+    color: black;
+    font-family: sans-serif;
+}
+hr{
+    margin-top: 15px;
+}
+.productlia1:hover{
+    color: #fd8f5f;
+    border-bottom: 1px solid #fd8f5f;
+    
+}
+#card1{
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    text-align: center;
+}
+.firstimg{
+    padding: 5px;
+    transition: 1s;
+
+   
+}
+.allcard1para{
+    font-family:  sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+   
+}
+
+.firstimg:hover .allcard1para{
+    border-bottom: 1px solid black;
+
+}
+.hoverparagraph{
+    margin-top: 5px;
+}
+#discovermoremaindiv{
+    margin-top: 150px;
+}
+#discovermoreimg{
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+}
+#discovermorediv{
+    position: relative;
+    background-color: #f2e1d9;
+    height: 501px;
+    width: 466px;
+    float: right;
+    text-align: center;
+    margin-top: -505px;
+
+}
+.discovermoreheading{
+
+    font-size: 43px;
+    font-family: sans-serif;
+    margin-top: 35px;
+    font-weight: 800;
+}
+
+.discovermoreheading1{
+
+    font-size: 43px;
+    font-family: sans-serif;
+    margin-top: 3px;
+    font-weight: 800;
+}
+.discovermorepara{
+    width: 412px;
+    margin-top: 38px;
+    margin-left: 20px;
+    font-family: sans-serif;
+    font-size: 14px;
+    
+   
+}
+
+.discovermorepara1{
+    width: 412px;
+    margin-top: 38px;
+    margin-left: 20px;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+#btn1{
+    margin-top: 63px;
+    margin-right: 191px;
+}
+.pymldiv{
+    text-align: center;
+    font-family: sans-serif;
+    margin-top: 100px;
+    width: 566px;
+    margin-left: 264px;
+    animation: saqib 1s ease-in-out ;
+    animation-direction: alternate;
+
+}
+@keyframes saqib{
+    from{
+        transform: translate( 0,150px);
+    }
+    to{
+        transform: translate(0,0);
+    }
+}
+
+#pymlheading{
+    font-size: 36px;
+    font-weight: bolder;
+}
+#pymlpara{
+    margin-top: 30px;
+    text-align: center;
+}
+.pymlcarddiv{
+    display: flex;
+    margin-top: 79px;
+    align-items: center;
+    text-align: center;
+    width: 55%;
+    margin-left: 21px;
+    animation: saqib 2s ease-in-out ;
+    animation-direction: alternate;
+}
+.pymlcarddiv1{
+    display: flex;
+    margin-top: 79px;
+    align-items: center;
+    text-align: center;
+    width: 55%;
+    margin-left: 21px;
+    animation: saqib 2s ease-in-out ;
+    animation-direction: alternate;
+}
+.pymlcarddiv2{
+    display: flex;
+    margin-top: 79px;
+    align-items: center;
+    text-align: center;
+    width: 55%;
+    margin-left: 21px;
+    animation: saqib 1s ease-in-out ;
+    animation-direction: alternate;
+}
+@keyframes saqib{
+    from{
+        transform: translate( 0,150px);
+    }
+    to{
+        transform: translate(0,0);
+    }
+}
+#pymlcarddiv:hover .allcard1para{
+    border-bottom: 1px solid black;
+}
+
+#pymlcard1{
+    padding: 14px;
+}
+#pymlcard1:hover .allcard1para{
+    border-bottom: 1px solid black;
+}
+#pymlcard2:hover .allcard1para{
+    border-bottom: 1px solid black;
+}
+#pymlcard3:hover .allcard1para{
+    border-bottom: 1px solid black;
+}
+#pymlcard2{
+    
+    margin-left: 27px;
+
+}
+#pymlcard3{
+    margin-left: 39px;
+}
+.popularimg{
+    width: 286px;
+}
+.hoverparagraph1{
+    color: darkred;
+    margin-top: 20px;
+    font-weight: bold;
+    font-family: sans-serif
+}
+#btn2{
+    margin-left: 444px;
+}
+#instaimgdiv{
+    margin-top: 65px;
+    margin-left: 10px;
+}
+#instagramcarddiv{
+    display: flex;
+    margin-top: 23px;
+    margin-left: 11px;
+    width: 97%;
+}
+#instagramcard1{
+    width: 341px;
+}
+#instagramcard2innerdiv{
+    
+    
+}
+#instra1{
+    width: 318px;
+}
+#instra2{
+    width: 318px;
+}
+.instagramcard1heading{
+    font-family: sans-serif;
+    font-size: 38px;
+    padding-top: 5px;
+}
+#instagramcard1para{
+    font-family: sans-serif;
+    width: 290px;
+   
+    margin-top: 11px;
+}
+.instacard2innerdiv{
+ height: 200px;
+ width: 318px;
+ 
+
+}
+
+.overlay{
+    height: 297px;
+    width: 318px;
+    margin-top: -302px;
+    text-align: center;
+    z-index: -1;
+    position: absolute;
+    background-color: #0000005c;
+    transition: 0.5s ease-in-out ;
+   
+}
+#hoverinstaimg{
+    height: 52px;
+    /* background-color: black; */
+    /* z-index: 1; */
+    /* position: absolute; */
+    margin: 0 auto;
+    text-align: center;
+    /* align-items: center; */
+    /* justify-content: center; */
+    margin-top: 116px;
+}
+.instacard2innerdiv:hover .overlay{
+    height: 297px;
+    width: 318px;
+    margin-top: -302px;
+    text-align: center;
+    z-index: 1;
+    position: absolute;
+    background-color: #0000005c;
+    transition: 0.5s ease-in-out ;
+}
+#servicesdiv{
+    display: flex;
+    margin-top: 102px;
+    background-color: #f2e1d9;
+    height: 320px;
+   
+    align-items: center;
+    /* margin: 0 auto; */
+    justify-content: center;
+    margin-left: -89px;
+    animation: saqib 1s ease-in-out ;
+    animation-direction: alternate;
+
+}
+#servicesinnerdiv{
+    display: flex;
+    width: 80%;
+}
+.servicescard{
+    padding-left: 25px;
+    margin-left: 19px;
+}
+.servicesheading{
+    margin-top: 23px;
+    font-family: sans-serif;
+    font-size: 16px;
+    color:#000000d1 ; 
+}
+.servicescard:hover .servicesheading{
+    color: black;
+}
+.servicespara{
+    margin-top: 15px;
+    font-family: sans-serif;
+    font-size: 15px;
+    color: #818181;
+}
+#mainfooterdiv{
+    display: flex;
+}
+#footerlogo{
+    width: 156px;
+    margin-left: 37px;
+    margin-top: 61px;
+}
+#footerpara{
+    margin-top: 34px;
+    color: #cdcdcd;
+    font-family: system-ui;
+    line-height: 25px;
+}
+footer{
+    background-color: #1d2547;
+    height: 570px;
+}
+.tableheadings{
+    padding-left: 96px;
+    color: white;
+    font-family: system-ui;
+    font-size: 17px;
+    font-weight: 500;
+}
+.tabledata{
+    padding-left: 124px;
+    color: #c1c1c1e6;
+    padding-top: 27px;
+    font-family: system-ui;
+    font-size: 16px;
+}
+#shopth{
+    padding-left: 119px;
+}
+table{
+    margin-top: 61px;
+}
+#socialmediaicons{
+    margin-left: 33px;
+    margin-top: 46px;
+}
+logo{
+    display: flex;
+}
+
+.fa-facebook-f{
+   transition: 1s;
+}
+#facebookicon{
+    color: white;
+    border: 1px solid;
+   border-radius: 35px;
+    font-size: 16px;
+   width: 11px;
+    padding: 13px 18px 14px 16px;
+    margin-left: 19px;
+}
+#facebookicon:hover{
+    background-color: #fd8f5f;
+}
+#facebookicon:hover .fa-facebook-f{
+    transform: rotateY(-180deg);
+}
+.fa-pinterest-p{
+    transition: 1s;
+}
+#pinteresticon:hover{
+    background-color: #fd8f5f;
+}
+#pinteresticon:hover .fa-pinterest-p{
+    transform: rotateY(-180deg);
+}
+#pinteresticon{
+    color: white;
+    border: 1px solid;
+    border-radius: 35px;
+    padding: 13px 16px 14px 16px;
+    border-radius: 31px;
+    width: 13px;
+    margin-left: 19px;
+}
+#twittericon:hover {
+    background-color: #fd8f5f;
+   
+}
+.fa-twitter{
+    transition: 1s;
+}
+#twittericon:hover .fa-twitter{
+    transform: rotateY(-180deg);
+}
+#twittericon{
+    border: 1px solid white;
+    border-radius: 36px;
+    padding: 13px;
+    color: white;
+    transition: 2s;
+    width: 17px;
+    margin-left: 19px;
+}
+#footerpara1{
+    color: #c4c4c7;
+    font-family: sans-serif;
+    font-size: 17px;
+    text-align: center;
+    margin-top: 58px;
+}
+.fa-heart{
+    color: #fd8f5f;
+}
+#colorlib{
+    color: #fd8f5f;
+}
